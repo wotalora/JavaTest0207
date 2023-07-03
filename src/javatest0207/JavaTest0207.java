@@ -16,6 +16,7 @@ public class JavaTest0207 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("this is a test");
+        System.out.println("this is my second line");
     }
     
 }
