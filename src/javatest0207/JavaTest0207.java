@@ -9,6 +9,8 @@ package javatest0207;
  * @author willi
  */
 public class JavaTest0207 {
+    
+    private int varia;
 
     /**
      * @param args the command line arguments
@@ -16,6 +18,20 @@ public class JavaTest0207 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("this is a test");
+    }
+
+    /**
+     * @return the varia
+     */
+    public int getVaria() {
+        return varia;
+    }
+
+    /**
+     * @param varia the varia to set
+     */
+    public void setVaria(int varia) {
+        this.varia = varia;
     }
     
 }
