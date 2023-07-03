@@ -12,6 +12,7 @@ public class JavaTest0207 {
     
     private int varia;
     private double test;
+    private double otherTest;
 
     /**
      * @param args the command line arguments
@@ -48,6 +49,20 @@ public class JavaTest0207 {
      */
     public void setTest(double test) {
         this.test = test;
+    }
+
+    /**
+     * @return the otherTest
+     */
+    public double getOtherTest() {
+        return otherTest;
+    }
+
+    /**
+     * @param otherTest the otherTest to set
+     */
+    public void setOtherTest(double otherTest) {
+        this.otherTest = otherTest;
     }
     
 }
